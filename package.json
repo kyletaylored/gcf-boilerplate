@@ -1,7 +1,7 @@
 {
-  "name": "gcf-boilerplate",
+  "name": "weta-proxy-ens",
   "version": "1.0.0",
-  "description": "Boilerplate local development environment for GCF repos",
+  "description": "Proxy server for Engaging Networks API for weta.org",
   "main": "src/index.js",
   "scripts": {
     "start": "node_modules/.bin/nodemon --inspect --no-colors node_modules/.bin/functions-framework --target=app --port 8001",
@@ -16,7 +16,7 @@
     },
     "ext": "js,json"
   },
-  "author": "Tom Mount <tom.mount@pantheon.io>",
+  "author": "Kyle Taylor <kyle.taylor@pantheon.io>",
   "license": "MIT",
   "eslintConfig": {
     "root": true,
